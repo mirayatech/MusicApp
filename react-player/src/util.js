@@ -61,7 +61,6 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
   ];
 }
 
