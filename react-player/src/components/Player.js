@@ -12,8 +12,13 @@ const Player = ({ currentSong }) => {
   // ref
   const audioRef = useRef(null);
   // event Handler
-  const playSongHandler = () => {
-    console.log(audioRef);
+  const playSongHandler = ({ currentSong, isPlaying, setIsPlaying }) => {
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(!isPlaying);
+    } else {
+      audioRef.current.play();
+    }
   };
 
   return (
