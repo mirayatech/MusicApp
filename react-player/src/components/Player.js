@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,18 +8,21 @@ import {
   faForwardStep,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Player = ({ currentSong }) => {
+const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
   // ref
   const audioRef = useRef(null);
   // event Handler
-  const playSongHandler = ({ currentSong, isPlaying, setIsPlaying }) => {
+  const playSongHandler = () => {
     if (isPlaying) {
       audioRef.current.pause();
       setIsPlaying(!isPlaying);
     } else {
       audioRef.current.play();
+      setIsPlaying(!isPlaying);
     }
   };
+
+  // State
 
   return (
     <div className="player">
@@ -46,7 +49,11 @@ const Player = ({ currentSong }) => {
           icon={faForwardStep}
         />
       </div>
-      <audio ref={audioRef} src={currentSong.audio}></audio>
+      <audio
+        // onTimeUpdate={timeUpdateHandler}
+        ref={audioRef}
+        src={currentSong.audio}
+      ></audio>
     </div>
   );
 };
