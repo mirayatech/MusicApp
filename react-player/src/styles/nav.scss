@@ -1,0 +1,27 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-weight: 600;
+  }
+
+  button {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgba(255, 255, 255, 0.111);
+    }
+  }
+}

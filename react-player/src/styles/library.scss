@@ -7,13 +7,12 @@
   background: #181818;
   // box-shadow: 2px 2px 50px rgb(204, 204, 204);
   overflow: scroll;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
   h2 {
     padding: 2rem;
     font-weight: 500;
-
-    // background: -webkit-linear-gradient(#fbd250 0%, #fb9443 39%, #fa4041 100%);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
   }
 }
 
