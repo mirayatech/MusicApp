@@ -10,6 +10,10 @@
   h2 {
     padding: 2rem;
     font-weight: 500;
+
+    // background: -webkit-linear-gradient(#fbd250 0%, #fb9443 39%, #fa4041 100%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
   }
 }
 
@@ -55,5 +59,19 @@
 }
 
 .selected {
-  background: cornflowerblue;
+  // background-image: linear-gradient(
+  //   -45deg,
+  //   #35c3f3 0%,
+  //   #8b9fe8 20%,
+  //   #e681d8 39%,
+  //   #ffa9a4 76%,
+  //   #fed2ce 100%
+  // );
+
+  background-image: linear-gradient(
+    -45deg,
+    #fbd250 0%,
+    #fb9443 39%,
+    #fa4041 100%
+  );
 }
