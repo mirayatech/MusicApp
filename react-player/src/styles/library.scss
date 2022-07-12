@@ -1,0 +1,58 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  background: white;
+  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  overflow: scroll;
+  h2 {
+    padding: 2rem;
+  }
+}
+
+.library-song {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px 0;
+  padding: 1rem 2rem 1rem 2rem;
+  transition: all 0.2s ease;
+  img {
+    width: 40%;
+  }
+
+  &:hover {
+    background: red;
+  }
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.song-description {
+  padding-left: 1rem;
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(155, 155, 155, 0.5);
+  border: transparent;
+  border-radius: 5px;
+}
