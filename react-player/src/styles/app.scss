@@ -5,12 +5,21 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background: #111111;
+}
+
 @import "./song";
 @import "./player";
 @import "./library";
 
 h1,
 h2,
-h3 {
-  color: #333;
+h3,
+h4 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
 }

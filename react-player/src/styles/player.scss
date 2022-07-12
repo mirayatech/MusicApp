@@ -25,9 +25,17 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 1rem;
-  width: 30%;
+  width: 45%;
 
   svg {
+    color: #fff;
     cursor: pointer;
+  }
+
+  .play {
+    background: #fff;
+    color: #111;
+    padding: 10px 16px;
+    border-radius: 50%;
   }
 }

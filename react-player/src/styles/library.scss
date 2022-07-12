@@ -4,11 +4,12 @@
   left: 0;
   width: 20rem;
   height: 100%;
-  background: white;
-  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  background: #181818;
+  // box-shadow: 2px 2px 50px rgb(204, 204, 204);
   overflow: scroll;
   h2 {
     padding: 2rem;
+    font-weight: 500;
   }
 }
 
@@ -16,19 +17,15 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  margin: 20px 0;
-  padding: 1rem 2rem 1rem 2rem;
-  transition: all 0.2s ease;
+  // margin: 20px 0;
+  padding: 30px 2rem 30px 2rem;
+  // transition: all 0.2s ease;
   img {
     width: 40%;
   }
 
   &:hover {
-    background: red;
-  }
-
-  &:first-child {
-    margin-top: 0;
+    background: #1d1d1d;
   }
 }
 
@@ -52,7 +49,11 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background: rgba(155, 155, 155, 0.5);
+  background: #9b9b9b80;
   border: transparent;
   border-radius: 5px;
+}
+
+.selected {
+  background: cornflowerblue;
 }
