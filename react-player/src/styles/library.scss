@@ -9,7 +9,7 @@
   overflow: scroll;
   opacity: 0;
   transform: translateX(-100%);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   h2 {
     padding: 2rem;
     font-weight: 500;
@@ -73,4 +73,9 @@
     #fb9443 39%,
     #fa4041 100%
   );
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
 }
