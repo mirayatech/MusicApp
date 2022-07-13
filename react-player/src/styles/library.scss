@@ -22,7 +22,7 @@
   cursor: pointer;
   // margin: 20px 0;
   padding: 30px 2rem 30px 2rem;
-  // transition: all 0.2s ease;
+  transition: all 0.5s ease;
   img {
     width: 40%;
   }
@@ -78,8 +78,8 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 460px) {
   .library {
-    width: 100%;
+    width: 60%;
   }
 }
