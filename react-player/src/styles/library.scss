@@ -30,6 +30,9 @@
   &:hover {
     background: #1d1d1d;
   }
+  &:active {
+    background: #444444;
+  }
 }
 
 .song-description {
@@ -67,12 +70,7 @@
   //   #fed2ce 100%
   // );
 
-  background-image: linear-gradient(
-    -45deg,
-    #fbd250 0%,
-    #fb9443 39%,
-    #fa4041 100%
-  );
+  background: #444444;
 }
 
 .active-library {
