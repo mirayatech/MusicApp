@@ -11,7 +11,7 @@ The user can select different music from the library. It can play the music, pau
 
 ## How it looks 👀
 
-<strong>Live Demo: </strong> https://dark-musicapp.netlify.app/ <br> <br> 
+<strong>Live Demo: </strong>  <br> <br> 
 
 <strong>Video:</strong>
 
